@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient'; // Import LinearGradient
@@ -9,7 +9,6 @@ export default function App() {
   return (
     
       <View style={styles.container}>
-        
         <Link href="./tabs/learn" style={styles.link}>Get Started</Link>
         <Link href="./aboutpage" style={styles.link}>About this app</Link>
         <StatusBar style="auto" />
@@ -44,3 +43,4 @@ const styles = StyleSheet.create({
     width: 500,
   },
 });
+*/
