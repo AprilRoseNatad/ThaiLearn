@@ -21,14 +21,8 @@ Thai Language Learning App
 # Sign Up Screen
 <img src="assets/images/s3.jpg" width="250" height="500">  
 
-# Learn (Home Screen)
+# Tab Screens
 <img src="assets/images/s4.jpg" width="250" height="500"> 
-
-# ChatBot
-<img src="assets/images/s5.jpg" wwidth="250" height="500"> 
-
-# Leaderboard
-<img src="assets/images/s6.jpg" width="250" height="500""> 
-
-# Profile Account
+<img src="assets/images/s5.jpg" width="250" height="500"> 
+<img src="assets/images/s6.jpg" width="250" height="500"> 
 <img src="assets/images/s7.jpg" width="250" height="500"> 
