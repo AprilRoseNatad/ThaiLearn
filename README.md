@@ -13,22 +13,22 @@ Thai Language Learning App
 * HTML, CSS and JS
 
 # Home Screen
-<img src="assets/images/screenshot/s1.jpg">  
+<img src="assets/images/s1.jpg">  
 
 # Sign In Screen
-<img src="assets/images/screenshot/s2.jpg">  
+<img src="assets/images/s2.jpg">  
 
 # Sign Up Screen
-<img src="assets/images/screenshot/s3.jpg">  
+<img src="assets/images/s3.jpg">  
 
 # Learn (Home Screen)
-<img src="assets/images/screenshot/s4.jpg"> 
+<img src="assets/images/s4.jpg"> 
 
 # ChatBot
-<img src="assets/images/screenshot/s5.jpg"> 
+<img src="assets/images/s5.jpg"> 
 
 # Leaderboard
-<img src="assets/images/screenshot/s6.jpg"> 
+<img src="assets/images/s6.jpg"> 
 
 # Profile Account
-<img src="assets/images/screenshot/s7.jpg"> 
+<img src="assets/images/s7.jpg"> 
