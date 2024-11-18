@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, Image, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
+import { View, Text, Image, TouchableOpacity, StyleSheet, ScrollView, } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 import { LinearGradient } from 'expo-linear-gradient';
 import { images, icons } from '../../constants'; // Importing the images from the centralized file
 import { useRouter } from 'expo-router'; // Import the useRouter hook for navigation
@@ -9,18 +10,18 @@ const Learn = () => {
 
   return (
     <View style={styles.container}>
-      {/* Top NavBar */}
+      
       <LinearGradient colors={['#9b05ff', '#ec00ff']} style={styles.navBar}>
         <View style={styles.navHeader}>
           <Text style={styles.title}>Learn</Text>
-          {/* Navigate to Profile page on icon click */}
+          
           <TouchableOpacity onPress={() => router.push('/profile')}>
             <Image source={icons.profile} style={styles.profileIcon} />
           </TouchableOpacity>
         </View>
 
         <View style={styles.iconContainer}>
-          {/* Using the centralized icons from icons.js */}
+          
           <Image source={icons.thaiflag} style={styles.icon} />
           <Image source={icons.fire} style={styles.icon} />
           <Image source={icons.heart} style={styles.icon} />
@@ -30,7 +31,6 @@ const Learn = () => {
         </View>
       </LinearGradient>
 
-      {/* Lesson Categories */}
       <ScrollView contentContainerStyle={styles.menu}>
         <TouchableOpacity style={styles.category}>
           <Image source={images.introduction} style={styles.iconImage} />
@@ -51,7 +51,9 @@ const Learn = () => {
           <Image source={images.community} style={styles.iconImage} />
           <Text style={{ fontSize: 18, color: '#555', marginLeft: 15 }}>Community</Text>
         </TouchableOpacity>
+
       </ScrollView>
+
     </View>
   );
 };
@@ -67,7 +69,7 @@ const styles = StyleSheet.create({
   },
   navHeader: {
     flexDirection: 'row',
-    justifyContent: 'space-between', // Ensures the title and profile icon are on opposite ends
+    justifyContent: 'space-between',
     alignItems: 'center',
   },
   title: {
@@ -90,7 +92,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
-    marginTop: 20, // Pushes the icon container below the profile icon
+    marginTop: 20,
     marginBottom: 1
   },
   icon: {
@@ -112,12 +114,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   fadedCategory: {
-    backgroundColor: '#f3e9ff88', // Adjust the alpha for a faded effect
+    backgroundColor: '#f3e9ff88', 
   },
   iconImage: {
-    width: 40, // Adjust size for icon-like appearance
+    width: 40,
     height: 40,
-    resizeMode: 'contain', // Ensure the image scales properly
+    resizeMode: 'contain', 
   },
   categoryText: {
     fontSize: 18,
