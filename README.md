@@ -7,9 +7,8 @@ Thai Language Learning App
 * Progress Tracker
 * Profile Account
 
-# Tech Stack
+# Software Stack
 * React Native
-* AppWrite
 * HTML, CSS and JS
 
 # Home Screen
